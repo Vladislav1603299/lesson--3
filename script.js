@@ -13,8 +13,8 @@ for (let i = 2; i <= n; i++) {
 
 
 
-document.write(" <br> Дано: <br> футболка - 300 рублей; <br> шорты - 400 рублей; <br> кроссовки - 500 рублей; <br> кепка - 250 рублей; <br> очки -150 рублей. <br>")
-document.write("<br> Найти общую стоимость товаров используя массивы <br>")
+document.write(" <br> Дано: <br> толстовка - 300 рублей; <br> шорты - 400 рублей; <br> кроссовки - 500 рублей; <br> кепка - 250 рублей; <br> очки -150 рублей. <br>")
+document.write("<br> Найти общую стоимость товаров используя массивы. <br>")
 
 let product1 = 300;
 let product2 = 400;
@@ -43,7 +43,7 @@ function countBasketPrice() {
     for (let i = 0; i < arr.length; i++) {
         totalСost += arr[i];
     }
-    document.write(" <br> Общая стоимость товаров составляет: " + totalСost + " рублей");
+    document.write(" <br> Общая стоимость товаров составляет: " + totalСost + " рублей.");
 }
 
 
